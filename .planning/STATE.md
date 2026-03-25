@@ -19,7 +19,7 @@ See: .planning/PROJECT.md (updated 2026-03-25)
 |-------|------|--------|
 | 1 | Project Scaffold | ✅ Complete (2026-03-25) |
 | 2 | Data & State Layer | ✅ Complete (2026-03-25) |
-| 3 | App Shell & Theme | ⏳ Pending |
+| 3 | App Shell & Theme | ✅ Complete (2026-03-25) |
 | 4 | UI Components & Home Screen | ⏳ Pending |
 
 ## Blockers

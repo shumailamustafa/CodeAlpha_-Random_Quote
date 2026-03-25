@@ -11,8 +11,6 @@ void main() {
 
     test('loadRandomQuote should update the current quote', () {
       final provider = QuoteProvider();
-      final initialQuote = provider.currentQuote;
-      
       provider.loadRandomQuote();
       
       // Note: Since it's random, it's possible (though unlikely with 22 quotes) 
@@ -36,7 +34,6 @@ void main() {
     });
 
     test('Works correctly with the full dataset size', () {
-      final provider = QuoteProvider();
       expect(QuotesData.quotes.length, greaterThanOrEqualTo(20));
     });
   });
